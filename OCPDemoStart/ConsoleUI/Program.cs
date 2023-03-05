@@ -1,9 +1,7 @@
-﻿using OCPLibrary;
+﻿using NotOCPLibrary;
+using OCPLibrary.Types;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleUI
 {
@@ -11,11 +9,18 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+            WrongSolution();
+
+            Console.ReadLine();
+        }
+
+        private static void WrongSolution()
+        {
             List<PersonModel> applicants = new List<PersonModel>
             {
                 new PersonModel { FirstName = "Tim", LastName = "Corey" },
-                new PersonModel { FirstName = "Sue", LastName = "Storm" },
-                new PersonModel { FirstName = "Nancy", LastName = "Roman" }
+                new PersonModel { FirstName = "Sue", LastName = "Storm", EmployeeType = EmployeeType.Manager },
+                new PersonModel { FirstName = "Nancy", LastName = "Roman", EmployeeType = EmployeeType.Executive }
             };
 
             List<EmployeeModel> employees = new List<EmployeeModel>();
@@ -30,8 +35,6 @@ namespace ConsoleUI
             {
                 Console.WriteLine($"{ emp.FirstName } { emp.LastName }: { emp.EmailAddress } IsManager: { emp.IsManager } IsExecutive: { emp.IsExecutive }");
             }
-
-            Console.ReadLine();
         }
     }
 }

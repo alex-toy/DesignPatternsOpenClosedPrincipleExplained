@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27428.2015
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{4FB4B537-DE4B-4261-ADAA-4074DF9EDA25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCPLibrary", "OCPLibrary\OCPLibrary.csproj", "{9CC28A4F-123B-424F-95DD-273994AB6D35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotOCPLibrary", "NotOCPLibrary\NotOCPLibrary.csproj", "{9CC28A4F-123B-424F-95DD-273994AB6D35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
