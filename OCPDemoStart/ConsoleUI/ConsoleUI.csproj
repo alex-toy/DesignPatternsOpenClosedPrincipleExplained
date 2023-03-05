@@ -54,6 +54,10 @@
       <Project>{9cc28a4f-123b-424f-95dd-273994ab6d35}</Project>
       <Name>NotOCPLibrary</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OCPLibrary\OCPLibrary.csproj">
+      <Project>{9f221c44-479e-4e48-825b-bb5d802f274f}</Project>
+      <Name>OCPLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

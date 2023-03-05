@@ -1,4 +1,4 @@
-﻿namespace NotOCPLibrary
+﻿namespace OCPLibrary.Users
 {
     public class EmployeeModel
     {
